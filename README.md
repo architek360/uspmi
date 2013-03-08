@@ -3,7 +3,7 @@ stared buildin by: https://github.com/tomfordrumm
 
 In development!
 
-
+######Deprecated!########
 Installation:
 
 Add to /app/design/frontend/base/default/template/shipping/tracking/popup.phtml
@@ -21,3 +21,4 @@ Add to /app/design/frontend/base/default/template/shipping/tracking/popup.phtml
 177<?php else: ?>
 178    <p><?php echo $this->__('There is no tracking available.'); ?></p>
 179<?php endif; ?>
+#########################
