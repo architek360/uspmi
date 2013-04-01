@@ -105,7 +105,8 @@
                 <handling>0</handling>
                 <model>ship/carrier_upsmi</model>
                 <pickup>CC</pickup>
-                <title>United Parcel Service Mail Innovations</title>
+                <name>United Parcel Service Mail Innovations</name>
+                <title>UPSMI</title>
                 <tracking_xml_url>https://www.ups.com/ups.app/xml/Track</tracking_xml_url>
                 <unit_of_measure>LBS</unit_of_measure>
                 <username backend_model="adminhtml/system_config_backend_encrypted"/>
