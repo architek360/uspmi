@@ -20,31 +20,6 @@
                 </carriers>
             </shipping>
         </sales>
-        <!--<resources>-->
-            <!--<ship_setup>-->
-                <!--<setup>-->
-                    <!--<module>Slv_Upsmi</module>-->
-                <!--</setup>-->
-                <!--<connection>-->
-                    <!--<use>core_setup</use>-->
-                <!--</connection>-->
-            <!--</ship_setup>-->
-            <!--<ship_write>-->
-                <!--<connection>-->
-                    <!--<use>core_write</use>-->
-                <!--</connection>-->
-            <!--</ship_write>-->
-            <!--<ship_read>-->
-                <!--<connection>-->
-                    <!--<use>core_read</use>-->
-                <!--</connection>-->
-            <!--</ship_read>-->
-        <!--</resources>-->
-        <!--<blocks>-->
-            <!--<ship>-->
-                <!--<class>Slv_Upsmi_Block</class>-->
-            <!--</ship>-->
-        <!--</blocks>-->
         <helpers>
             <slv_upsmi>
                 <class>Slv_Upsmi_Helper</class>
