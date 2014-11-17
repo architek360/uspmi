@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Slv_Upsmi>
+            <version>0.1.0</version>
+        </Slv_Upsmi>
+    </modules>
+    <global>
+        <models>
+            <ship>
+                <class>Slv_Upsmi_Model</class>
+            </ship>
+        </models>
+        <sales>
+            <shipping>
+                <carriers>
+                    <upsmi>
+                        <class>Slv_Upsmi_Model_Carrier_Upsmi</class>
+                    </upsmi>
+                </carriers>
+            </shipping>
+        </sales>
+        <!--<resources>-->
+            <!--<ship_setup>-->
+                <!--<setup>-->
+                    <!--<module>Slv_Upsmi</module>-->
+                <!--</setup>-->
+                <!--<connection>-->
+                    <!--<use>core_setup</use>-->
+                <!--</connection>-->
+            <!--</ship_setup>-->
+            <!--<ship_write>-->
+                <!--<connection>-->
+                    <!--<use>core_write</use>-->
+                <!--</connection>-->
+            <!--</ship_write>-->
+            <!--<ship_read>-->
+                <!--<connection>-->
+                    <!--<use>core_read</use>-->
+                <!--</connection>-->
+            <!--</ship_read>-->
+        <!--</resources>-->
+        <!--<blocks>-->
+            <!--<ship>-->
+                <!--<class>Slv_Upsmi_Block</class>-->
+            <!--</ship>-->
+        <!--</blocks>-->
+        <helpers>
+            <slv_upsmi>
+                <class>Slv_Upsmi_Helper</class>
+            </slv_upsmi>
+        </helpers>
+    </global>
+    <default>
+        <carriers>
+            <upsmi>
+                <access_license_number backend_model="adminhtml/system_config_backend_encrypted"/>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <allowed_methods>UPSMI,United Parcel Service Mail Innovations</allowed_methods>
+                <!--<origin_shipment>Shipments Originating in United States</origin_shipment>-->
+                <shipment_requesttype>0</shipment_requesttype>
+                <container>CP</container>
+                <cutoff_cost/>
+                <dest_type>RES</dest_type>
+                <free_method />
+                <gateway_url>http://www.ups.com/using/services/rave/qcostcgi.cgi</gateway_url>
+                <gateway_xml_url>https://onlinetools.ups.com/ups.app/xml/Rate</gateway_xml_url>
+                <handling>0</handling>
+                <model>ship/carrier_upsmi</model>
+                <pickup>CC</pickup>
+                <name>United Parcel Service Mail Innovations</name>
+                <title>UPSMI</title>
+                <tracking_xml_url>https://www.ups.com/ups.app/xml/Track</tracking_xml_url>
+                <unit_of_measure>LBS</unit_of_measure>
+                <username backend_model="adminhtml/system_config_backend_encrypted"/>
+                <password backend_model="adminhtml/system_config_backend_encrypted"/>
+                <specificerrmsg>This shipping method is currently unavailable. If you would like to ship using this shipping method, please contact us.</specificerrmsg>
+                <min_package_weight>1</min_package_weight>
+                <max_package_weight>99999</max_package_weight>
+                <handling_type>F</handling_type>
+                <handling_action>O</handling_action>
+                <negotiated_active>0</negotiated_active>
+                <mode_xml>1</mode_xml>
+                <type>UPSMI</type>
+            </upsmi>
+        </carriers>
+    </default>
+</config>

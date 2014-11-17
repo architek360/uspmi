@@ -1,17 +1,13 @@
 {
-    "name":"snowcommerce/uspmi",
+    "name":"slv/upsmi",
     "type":"magento-module",
     "homepage":"https://github.com/sergoslav/uspmi.git",
-    "description":"USPMI Magento extension",
+    "description":"UPSMI Magento extension",
     "minimum-stability": "dev",
     "authors":[
         {
-            "name":"Svyatoslav Zhylichev",
-            "email":"tomfordrumm@gmail.com"
-        },
-        {
             "name":"Sergey Petrov",
-            "email":"sergey.petrov@snowcommerce.com"
+            "email":"sergoslav@gmail.com"
         }
     ],
     "require":{
@@ -19,8 +15,8 @@
     },
     "extra": {
         "map": [
-            ["app/code/local/UPSMI/Ship", "app/code/local/UPSMI/Ship"],
-            ["app/etc/modules/UPSMI_Ship.xml", "app/etc/modules/UPSMI_Ship.xml"]
+            ["app/code/local/Slv/Upsmi", "app/code/local/Slv/Upsmi"],
+            ["app/etc/modules/Slv_Upsmi.xml", "app/etc/modules/Slv_Upsmi.xml"]
         ],
         "auto-append-gitignore": true
     }
