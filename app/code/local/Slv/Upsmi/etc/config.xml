@@ -7,9 +7,9 @@
     </modules>
     <global>
         <models>
-            <ship>
+            <slv_upsmi>
                 <class>Slv_Upsmi_Model</class>
-            </ship>
+            </slv_upsmi>
         </models>
         <sales>
             <shipping>
@@ -67,7 +67,7 @@
                 <gateway_url>http://www.ups.com/using/services/rave/qcostcgi.cgi</gateway_url>
                 <gateway_xml_url>https://onlinetools.ups.com/ups.app/xml/Rate</gateway_xml_url>
                 <handling>0</handling>
-                <model>ship/carrier_upsmi</model>
+                <model>slv_upsmi/carrier_upsmi</model>
                 <pickup>CC</pickup>
                 <name>United Parcel Service Mail Innovations</name>
                 <title>UPSMI</title>
